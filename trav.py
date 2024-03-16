@@ -4,12 +4,11 @@ def itr2():
         return 0
     x=s[0]
     s.pop(0)
-            
-    if x==None:
-        itr2()
-                
-    s.append(x.left)
-    s.append(x.right)
+        
+    if x.left:            
+        s.append(x.left)
+    if x.right:
+        s.append(x.right)
             
                 
     itr2()
