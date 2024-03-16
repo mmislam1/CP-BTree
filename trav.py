@@ -1,3 +1,4 @@
+s=[root]
 def itr():
   if len(s)==0:
     return 0
